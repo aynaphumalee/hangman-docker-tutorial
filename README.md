@@ -33,6 +33,7 @@
 #### ถ้าเห็น ตัว hangman-server รันอยู่แสดงว่ามันโอเคล่ะ ต่อไป ไปทำตัว Client ต่อ
 
 ก่อนอื่นเลย ให้เอา คำว่า `server` ไปใส่แทน ip บนตัวเกม Code Client.java 
+![](https://imgur.com/JPEjJMw.png)
 
 1. จากนั้นสร้างไฟล์ชื่อ `Dockerfile-client` ขึ้นมา ไฟล์นี้จะเอาไว้สร้าง image ของ server
 
