@@ -19,12 +19,15 @@
         CMD ["java", "Server"]
 		
 5. `CMD ["java", "Server"]` บรรทัดนี้แก้ **"Server"** เป็นชื่อ class ที่ะรัน
+![](https://i.imgur.com/9Agw4eX.png)
 
 6. จากนั้น รันคำสั่ง `docker build -f Dockerfile-server -t hangman-server-image .`
+![](https://i.imgur.com/cb6nyZq.png)
 
 7. จากนั้น รันคำสั่ง `docker run -dit --name hangman-server hangman-server-image`
 
 8. จากนั้น `docker ps` ดูจะเห็นว่ามี container มันรันอยู่ ชื่อว่า **"hangman-server"** 
+![](https://i.imgur.com/a6tntcX.png)
 
 
 #### ถ้าเห็น ตัว hangman-server รันอยู่แสดงว่ามันโอเคล่ะ ต่อไป ไปทำตัว Client ต่อ
@@ -51,7 +54,7 @@
 **ถ้าทำสำเร็จ มันจะขึ้นตัวเกมมาให้เล่น**
 
 ถ้าสมมุต run ตัว docker ไปแล้ว แล้วจะรันใหม่ แล้วมันขึ้นประมาณนี้
-รูป error
+![](https://i.imgur.com/1OpYoOz.png)
 แสดง ว่ามันมี docker ชื่อนี้แล้ว ให้ลบออกก่อน หรือถ้าไม่อยากลบ ก็ให้เปลี่ยนชื่อตรง `--name`
 คำสั่งลบ `docker rm -f docker-name`  ตรง docker-name ให้ใส่เป็นชื่อ ของ docker
 
