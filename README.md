@@ -35,7 +35,7 @@
 ก่อนอื่นเลย ให้เอา คำว่า `server` ไปใส่แทน ip บนตัวเกม Code Client.java 
 ![](https://imgur.com/JPEjJMw.png)
 
-1. จากนั้นสร้างไฟล์ชื่อ `Dockerfile-client` ขึ้นมา ไฟล์นี้จะเอาไว้สร้าง image ของ server
+1. จากนั้นสร้างไฟล์ชื่อ `Dockerfile-client` ขึ้นมา ไฟล์นี้จะเอาไว้สร้าง image ของ client
 
 2. จากนั้น เปิด `Dockerfile-client` ขึ้นพิมพ์ตามนี้
 
