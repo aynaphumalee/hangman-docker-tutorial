@@ -1,8 +1,8 @@
 # hangman-docker-tutorial
+###  อันนี้สำหรับ Client ที่ไม่ได้ทำเป็น GUI 
+
 
 ก่อนอื่นไปอ่านนี้มาก่อน ว่า docker, image, container คืออะไร [Link](https://www.hostpacific.com/using-docker-on-centos7/)
-
-###  อันนี้สำหรับ Client ที่ไม่ได้ทำเป็น GUI 
 
 1. ก่อนอื่นสร้าง โฟร์เดอร์ ขึ้นมาก่อน สมมตชื่อ `hangman-project`
 
