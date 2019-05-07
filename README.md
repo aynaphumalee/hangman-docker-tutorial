@@ -1,3 +1,4 @@
+
 # hangman-docker-tutorial
 ###  อันนี้สำหรับ Client ที่ไม่ได้ทำเป็น GUI 
 
@@ -8,7 +9,7 @@
 
 2. จากนั้นก็อปไฟล์ java ทั้งหมดไปไว้ใน โฟร์เดอร์นั้น
 
-3. จากนั้นสร้างไฟล์ชื่อ `Dockerfile-server` ขึ้นมา ไฟล์นี้จะเอาไว้สร้าง image ของ server
+3. จากนั้นสร้างไฟล์ชื่อ `Dockerfile-server` ขึ้นมา ไฟล์นี้จะเอาไว้สร้าง image ของ server [วิธีสร้างไฟล์แบบไม่มีนามสกุล](#howtodockerfile)
 
 4. จากนั้น เปิด `Dockerfile-server` ขึ้นพิมพ์ตามนี้
 
@@ -68,3 +69,12 @@
 - `docker rm -f "name or id" ` ลบ container
 - `docker start "name or id" ` start container ที่ไม่ได้ทำงานอยู่
 
+
+##  วิธีสร้างไฟล์ที่ไม่มีนามสกุล ( Ex: Dockerfile-server )
+<a name="howtodockerfile"></a>
+1. เปิดโฟร์เดอร์งานขึ้นมา แล้ว คลิกขวา เลือก `Git bash Here` (สำหรับคนที่ลง git ไปแล้วจะมี menu นี้)
+2. จากนั้นพิมพ์ `touch Dockerfile-server`  จากนั้นจะได้ไฟล์ชื่อ  **Dockerfile-server**
+![](https://imgur.com/DsaZCw3.png)
+4. แล้วก็เปิดไฟล์นั้นด้วยโปรแกรม text editor ต่างๆ ( notepad, editplus )
+
+จบ
